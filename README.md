@@ -1,5 +1,6 @@
+<!-- Banner Image -->
 <div>
-    <img src="assets/macbook.jpg" alt="" width="" height=""/>
+    <img src="assets/macbook.jpg" alt="" width="100%" height="100%"/>
 </div>
 
 # About Me
@@ -12,7 +13,8 @@
     - <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 - 💞️ I’m looking to collaborate on open source projects big and small
 
-## Technical Details
+# Technical Details
+<!-- Valid Go program -->
 ```go
 package main
 
@@ -46,17 +48,18 @@ func main() {
 	fmt.Printf("%#v\n", daolivar)
 }
 ```
-
+<!-- GitHub README Stat Card -->
 <div align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=daolivar&show_icons=true&theme=react" alt="daolivar github stats"/>
+	<img src="https://github-readme-stats.vercel.app/api?username=daolivar&show_icons=true&theme=react" alt="daolivar github stats" width="75%" height="75%"/>
 </div>
 
+<!-- GitHub README Top Languages Card (clickable) -->
 <div align="center">
 	<a href="https://github.com/daolivar?tab=repositories">
-		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daolivar&layout=compact&theme=react"/>
+		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daolivar&layout=compact&langs_count=10&theme=react" width="75%" height="75%"/>
 	</a>
 </div>
 
 <div align="center">
-	<img src="assets/spidertocat.png" alt="spider-cat" width="250" height="250"/>
+	<img src="assets/spidertocat.png" alt="spider-cat" width="50%" height="50%"/>
 </div>
