@@ -52,5 +52,11 @@ func main() {
 </div>
 
 <div align="center">
+	<a href="https://github.com/daolivar?tab=repositories">
+		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daolivar&layout=compact&theme=react"/>
+	</a>
+</div>
+
+<div align="center">
 	<img src="assets/spidertocat.png" alt="spider-cat" width="250" height="250"/>
 </div>
