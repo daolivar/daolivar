@@ -48,5 +48,9 @@ func main() {
 ```
 
 <div align="center">
-    <img src="assets/spidertocat.png" alt="spider-cat" width="250" height="250"/>
+	<img src="https://github-readme-stats.vercel.app/api?username=daolivar&show_icons=true&theme=react" alt="daolivar github stats"/>
+</div>
+
+<div align="center">
+	<img src="assets/spidertocat.png" alt="spider-cat" width="250" height="250"/>
 </div>
