@@ -26,7 +26,7 @@
 <summary>Go</summary>
 <br>
 
-You can run this go program __[here](https://go.dev/play/p/P1pBxLMRCn9)__
+You can run this go program __[here](https://go.dev/play/p/1GHKCY6S3IY)__
 
 ```go
 package main
@@ -34,31 +34,54 @@ package main
 import "fmt"
 
 type David struct {
-	name      string
-	employer  string
-	role      string
-	exp       int
-	edu       string
-	languages []string
-	tools     []string
+	name       string
+	employer   string
+	role       string
+	exp        int
+	edu        string
+	languages  []string
+	frameworks []string
+	tools      []string
 }
 
 func CreateDavid() *David {
 	d := David{
-		name:      "David Olivares",
-		employer:  "Visa",
-		role:      "Senior Software Engineer",
-		exp:       2,
-		edu:       "California State University, Monterey Bay",
-		languages: []string{"Go", "C++", "Java", "HTML", "CSS", "Javascript"},
-		tools:     []string{"Git", "Docker", "Jira", "Jenkins", "Bootstrap", "Postman", "Chrome Dev Tools"},
+		name:       "David Olivares",
+		employer:   "Visa",
+		role:       "Senior Software Engineer",
+		exp:        2,
+		edu:        "California State University, Monterey Bay",
+		languages:  []string{"Go", "C++", "Java", "HTML", "CSS", "Javascript"},
+		frameworks: []string{"Bootstrap", "Xtext"},
+		tools:      []string{"Bash", "Git", "Docker", "Jira", "Jenkins", "Postman", "Bitbucket"},
 	}
 	return &d
 }
 
+func (david *David) PrintDetails() {
+	fmt.Printf("Hello, my name is %s.\n", david.name)
+	fmt.Printf("I currently work at %s as a %s with approx. %d years experience.\n", david.employer, david.role, david.exp)
+	fmt.Printf("I graduated from %s in May, 2020.\n", david.edu)
+
+	fmt.Println("Programming languages I use include:")
+	for _, lang := range david.languages {
+		fmt.Printf("\t- %s\n", lang)
+	}
+
+	fmt.Println("Development Frameworks I am familiar with include:")
+	for _, framemwork := range david.frameworks {
+		fmt.Printf("\t- %s\n", framemwork)
+	}
+
+	fmt.Println("Development tools I am familiar with include:")
+	for _, tool := range david.tools {
+		fmt.Printf("\t- %s\n", tool)
+	}
+}
+
 func main() {
 	daolivar := CreateDavid()
-	fmt.Printf("%#v\n", daolivar)
+	daolivar.PrintDetails()
 }
 ```
 </details>
