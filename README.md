@@ -44,7 +44,7 @@ type David struct {
 	tools      []string
 }
 
-func CreateDavid() *David {
+func NewDavid() *David {
 	d := David{
 		name:       "David Olivares",
 		employer:   "Visa",
@@ -52,7 +52,7 @@ func CreateDavid() *David {
 		exp:        2,
 		edu:        "California State University, Monterey Bay",
 		languages:  []string{"Go", "C++", "Java", "HTML", "CSS", "Javascript"},
-		frameworks: []string{"Bootstrap", "Xtext"},
+		frameworks: []string{"React", "Bootstrap", "Xtext"},
 		tools:      []string{"Bash", "Git", "Docker", "Jira", "Jenkins", "Postman", "Bitbucket"},
 	}
 	return &d
@@ -80,7 +80,7 @@ func (david *David) PrintDetails() {
 }
 
 func main() {
-	daolivar := CreateDavid()
+	daolivar := NewDavid()
 	daolivar.PrintDetails()
 }
 ```
