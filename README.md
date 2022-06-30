@@ -26,7 +26,7 @@
 <summary>Go</summary>
 <br>
 
-You can run this go program __[here](https://go.dev/play/p/1GHKCY6S3IY)__
+You can run this go program ***[here](https://go.dev/play/p/Hz7w5cqChN6)***
 
 ```go
 package main
