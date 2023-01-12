@@ -10,7 +10,7 @@
 
 <!-- link vars -->
 [linkedin profile]:https://www.linkedin.com/in/david-olivares-bbb511254
-[send end click]:mailto:daveolivares01@gmail.com
+[send email]:mailto:daveolivares01@gmail.com
 [github profile]:https://github.com/daolivar
 
 <!-- language badge imgs -->
@@ -26,28 +26,30 @@
 - 👋 Hi, I’m @daolivar
 - 👀 I’m interested in Software Development 💻
 - 🔭 I’m currently working on ...
-![Java][java badge] ![Go][go badge] ![C++][c++ badge]
+	- ![Java][java badge] ![Go][go badge] ![C++][c++ badge]
 - 🌱 I’m currently learning ...
-![Bash][bash badge] ![Html][html badge] ![Css][css badge] ![Javascript][js badge]
+	- ![Bash][bash badge] ![Html][html badge] ![Css][css badge] ![Javascript][js badge]
 - 🤝 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-[![LinkedIn][linkedin badge]][linkedin profile] [![Gmail][gmail badge]][send end click] [![Github][github badge]][github profile]
+	- [![LinkedIn][linkedin badge]][linkedin profile] [![Gmail][gmail badge]][send email] [![Github][github badge]][github profile]
 - ⚡ Fun fact: ...
 
 # Technical Details
 <!-- Dropdown -->
 <details>
-<summary>Go</summary>
+<summary>Display</summary>
 <br>
 
-You can run this go program ***[here](https://go.dev/play/p/gE1coEj4_jo)***
+Run this program 👉 [![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=go&fill=29BEB0&animation=spin)](https://go.dev/play/p/JdlzuEDeg1Z "Click Me")
 
 ```go
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Developer struct {
 	name      string
@@ -60,8 +62,8 @@ type Developer struct {
 	subjects  []string
 }
 
-func NewDeveloper() *Developer {
-	d := Developer{
+func main() {
+	daolivar := Developer{
 		name:      "David Olivares",
 		employer:  "Visa",
 		role:      "Senior Software Engineer",
@@ -71,56 +73,22 @@ func NewDeveloper() *Developer {
 		tools:     []string{"Bash", "Git", "Docker", "Jenkins", "Postman"},
 		subjects:  []string{"HTML", "CSS", "Javascript"},
 	}
-	return &d
-}
 
-func (dev *Developer) PrintDetails() {
-	fmt.Printf("Hello, my name is %s.\n", dev.name)
-	fmt.Printf("I currently work at %s as a %s with approx. %d years experience.\n", dev.employer, dev.role, dev.exp)
-	fmt.Printf("I graduated from %s in May, 2020.\n", dev.edu)
-
-	fmt.Println("Programming languages I use include:")
-	for _, lang := range dev.languages {
-		fmt.Printf("\t- %s\n", lang)
-	}
-
-	fmt.Println("Development tools I am familiar with include:")
-	for _, tool := range dev.tools {
-		fmt.Printf("\t- %s\n", tool)
-	}
-
-	fmt.Println("I am currently learning:")
-	for _, subject := range dev.subjects {
-		fmt.Printf("\t- %s\n", subject)
-	}
-}
-
-func main() {
-	daolivar := NewDeveloper()
-	daolivar.PrintDetails()
+	fmt.Printf("%T %+v", daolivar, daolivar)
 }
 ```
 </details>
 
-
 ## GitHub Stats
-<!-- GitHub Stat cards -->
-<div align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=daolivar&show_icons=true&theme=react" alt="daolivar github stats" width="75%" height="75%"/>
-</div>
 
-<!-- Top Languages card clickable -->
-<div align="center">
-	<a href="https://github.com/daolivar?tab=repositories">
-		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daolivar&layout=compact&langs_count=7&theme=react" width="75%" height="75%"/>
-	</a>
-</div>
-
-<!-- Spider Cat 'Hidden' Dropdown -->
-<div align="center">
-	<details>
-	<summary></summary>
+<details>
+	<summary>Display</summary>
 	<br>
+	<div align="center">
+		<img src="https://github-readme-stats.vercel.app/api?username=daolivar&show_icons=true&theme=react" alt="daolivar github stats" width="75%" height="75%"/>
+		<a href="https://github.com/daolivar?tab=repositories">
+			<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daolivar&layout=compact&langs_count=7&theme=react" width="75%" height="75%"/>
+		</a>
 		<img src="assets/spidertocat.png" alt="spider-cat" width="50%" height="50%"/>
-	</details>
-</div>
+	</div>
+</details>
