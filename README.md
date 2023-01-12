@@ -1,6 +1,6 @@
 <!-- Banner Image -->
-<div>
-    <img src="assets/macbook.jpg" alt="" width="100%" height="100%"/>
+<div align="center">
+    <img src="assets/macbook.jpg" alt="" width="75%" height="75%"/>
 </div>
 
 <!-- socials badge imgs -->
@@ -23,11 +23,6 @@
 [go badge]:https://tinyurl.com/go-badge
 
 # About Me
-<!-- Dropdown -->
-<details>
-<summary>Bio</summary>
-<br>
-
 - 👋 Hi, I’m @daolivar
 - 👀 I’m interested in Software Development 💻
 - 🔭 I’m currently working on ...
@@ -40,8 +35,6 @@
 - 📫 How to reach me: ...
 [![LinkedIn][linkedin badge]][linkedin profile] [![Gmail][gmail badge]][send end click] [![Github][github badge]][github profile]
 - ⚡ Fun fact: ...
-
-</details>
 
 # Technical Details
 <!-- Dropdown -->
