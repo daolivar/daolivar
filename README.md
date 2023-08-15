@@ -26,15 +26,22 @@
 - 👋 Hi, I’m @daolivar
 - 👀 I’m interested in Software Development 💻
 - 🔭 I’m currently working on ...
-	- ![Java][java badge] ![Go][go badge] ![C++][c++ badge]
+	- Web Development
+	- Data Structures & Algorithms
 - 🌱 I’m currently learning ...
-	- ![Bash][bash badge] ![Html][html badge] ![Css][css badge] ![Javascript][js badge]
+	- Web Development
+	- Java
+	- C++
+	- Go
 - 🤝 I’m looking to collaborate on ...
+	- Small web projects I can utilize the skills I learn.
 - 🤔 I’m looking for help with ...
+	- Upskilling as a software engineer
 - 💬 Ask me about ...
+	- Anything you want to know about myself or work :)
 - 📫 How to reach me: ...
 	- [![LinkedIn][linkedin badge]][linkedin profile] [![Gmail][gmail badge]][send email] [![Github][github badge]][github profile]
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: I love anything Basketball 🏀 and Spider-Man 🕸️
 
 # Technical Details
 <!-- Dropdown -->
